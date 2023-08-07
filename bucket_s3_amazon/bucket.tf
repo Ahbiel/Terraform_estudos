@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "my_fisrt_bucket" { #o nome é opcional
   bucket = var.nomeBucket
 
   tags = {
-    Project = var.tags_adcionais.Project
-    Num     = var.tags_adcionais.num
+    Project = local.Project
+    Num     = local.Num
   }
 }
