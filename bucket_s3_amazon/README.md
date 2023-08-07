@@ -12,3 +12,6 @@ Antes de usar o comando terraform apply, devo passar as variáveis de ambiente n
 - terraform apply: faz um deploy da minha aplicação
 - terraform destroy: destrói minha aplicação
 
+- terraform output: mostra todos os outputs criado
+   - terraform output "output_criado": visualiza um output em específico
+
