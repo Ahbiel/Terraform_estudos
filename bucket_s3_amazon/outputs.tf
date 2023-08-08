@@ -1,5 +1,5 @@
-output bucket_id {
-  value       = aws_s3_bucket.my_fisrt_bucket.id
+output "bucket_id" {
+  value = aws_s3_bucket.my_fisrt_bucket.id
   #sensitive   = true
   description = "description"
 }
