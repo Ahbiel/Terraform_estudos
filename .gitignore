@@ -5,3 +5,5 @@
 *.tfstate
 *.out
 *.info
+*.pub
+aws-key
